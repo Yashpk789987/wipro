@@ -271,3 +271,11 @@
 0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:50:56 +0530] "GET /IntroductionToJsp/ HTTP/1.1" 404 773
 0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:51:00 +0530] "GET /IntroductionToJsp/assignment1/ HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:51:02 +0530] "POST /IntroductionToJsp/GeneratePrimeNumbers HTTP/1.1" 500 2865
+127.0.0.1 - - [17/Jul/2020:01:53:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:53:51 +0530] "GET /IntroductionToJsp/ HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:54:04 +0530] "GET /IntroductionToJsp/assignment1 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:54:04 +0530] "GET /IntroductionToJsp/assignment1/ HTTP/1.1" 200 459
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:54:10 +0530] "POST /IntroductionToJsp/GeneratePrimeNumbers HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:56:31 +0530] "GET /IntroductionToJsp/assignment1/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:56:36 +0530] "POST /IntroductionToJsp/GeneratePrimeNumbers HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [17/Jul/2020:01:56:53 +0530] "POST /IntroductionToJsp/GeneratePrimeNumbers HTTP/1.1" 200 275

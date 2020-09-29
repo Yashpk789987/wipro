@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;InventorySalesSystem/db.sql&apos; to &apos;dbscript.sql&apos;" description="Rename resource &apos;db.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="db.sql" name="dbscript.sql" stamp="1589854264325" updateReferences="true"/>
+</session>

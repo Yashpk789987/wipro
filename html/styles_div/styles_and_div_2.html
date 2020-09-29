@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="font.css" />
+  </head>
+  <style>
+    .container {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-direction: row;
+    }
+    .col {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    #h1 {
+      font-family: cursive;
+      font-size: 30pt;
+      color: black;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="col">
+        <form>
+          <table>
+            <tr>
+              <h1 id="h1">VISITORS INFORMATION</h1>
+              <hr />
+            </tr>
+            <tr>
+              <td>E-Mail:</td>
+              <td><input type="text" name="E-Mail" required /> <br /></td>
+            </tr>
+
+            <tr>
+              <td>User's Interest Web</td>
+              <br />
+              <td>
+                <input type="radio" name="Interest" value="Research" />
+                <label> Research </label>
+                <input type="radio" name="Interest" value="Purchase" />
+                <label> Purchase </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Occupation</td>
+              <td>
+                <select id="Occupation" name="Occupation">
+                  <option value="Select one" selected> Select one </option>
+                  <option value="Student"> Student </option>
+                  <option value="Engineer">Engineer</option>
+                  <option value="Doctor"> Doctor </option>
+                  <option value="Businessman">Businessman</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Want us to send you junk mails?</td>
+              <br />
+              <td>
+                <input type="radio" name="Text" value="Absolutely" />
+                <label>Absolutely </label>
+                <input type="radio" name="Text" value="No way man" />
+                <label>No way man </label>
+              </td>
+            </tr>
+          </table>
+          <br />
+          <input type="submit" name="submit" />
+          <input type="Reset" name="Reset" />
+        </form>
+      </div>
+      <div class="col">
+        <form>
+          <table>
+            <tr>
+              <center><h1 id="h1">ONLINE REGISTRATION FORM</h1></center>
+              <hr />
+            </tr>
+            <tr>
+              <td><label> USERNAME: </label></td>
+              <td><input type="text" name="username" /></td>
+            </tr>
+            <tr>
+              <td><label> PASSWORD: </label></td>
+              <td><input type="password" name="pwd" /></td>
+            </tr>
+            <tr>
+              <td><label> CONFIRM PASSWORD:: </label></td>
+              <td><input type="password" name="cpwd" /></td>
+            </tr>
+            <tr>
+              <td><label> GENDER: </label></td>
+              <td>
+                <input type="radio" name="GENDER" value="Male" />
+                <label>MALE</label>
+                <input type="radio" name="GENDER" value="Female" />
+                <label>Female</label>
+                <input type="radio" name="GENDER" value="Others" />
+                <label>Others</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label> Address :</label>
+              </td>
+              <td>
+                <textarea name="address" cols="20" rows="4"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label> PROFESSION</label></td>
+              <td>
+                <select name="PROFESSION">
+                  <option> SELECT ONE</option>
+                  <option value="Student"> Student </option>
+                  <option value="Scholar"> Scholar </option>
+                  <option value="Doctor">Doctor </option>
+                  <option value="Engineer"> Engineer </option>
+                  <option value="Professor"> Professor</option>
+                  <option value="Teacher"> Teacher </option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="submit" name="submit" />
+                <input type="reset" name="reset" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

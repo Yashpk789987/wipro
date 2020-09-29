@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.wipro.service.Department.java&apos; to &apos;DepartmentAdmin.java&apos;&#x0D;&#x0A;- Original project: &apos;hibernate&apos;&#x0D;&#x0A;- Original element: &apos;com.wipro.service.Department.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.wipro.service.DepartmentAdmin.java&apos;" description="Rename compilation unit &apos;Department.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.wipro.service{Department.java" name="DepartmentAdmin.java" references="false" stamp="1600011151417" version="1.0"/>
+</session>

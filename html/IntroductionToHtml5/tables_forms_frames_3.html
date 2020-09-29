@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <body>
+    <center>
+      <h1>ONLINE REGISTRATION FORM</h1>
+      <form>
+        <table>
+          <tr>
+            <td><label> USERNAME: </label></td>
+            <td>
+              <input
+                type="text"
+                name="username"
+                placeholder="Enter Your username"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label> PASSWORD: </label></td>
+            <td>
+              <input
+                type="password"
+                name="pwd"
+                placeholder="Enter Your Password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label> CONFIRM PASSWORD:: </label></td>
+            <td>
+              <input
+                type="password"
+                name="cpwd"
+                placeholder="Enter confirm Password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label> GENDER: </label></td>
+            <td>
+              <input type="radio" name="GENDER" value="Male" required />
+              <label>MALE</label>
+              <input type="radio" name="GENDER" value="Female" required />
+              <label>Female</label>
+              <input type="radio" name="GENDER" value="Others" required />
+              <label>Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Address :</label>
+            </td>
+            <td>
+              <textarea required name="address" cols="20" rows="4"> </textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label> PROFESSION</label></td>
+            <td>
+              <select name="PROFESSION" required>
+                <option> SELECT ONE</option>
+                <option value="Student"> Student </option>
+                <option value="Scholar"> Scholar </option>
+                <option value="Doctor">Doctor </option>
+                <option value="Engineer"> Engineer </option>
+                <option value="Professor"> Professor</option>
+                <option value="Teacher"> Teacher </option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" name="submit" />
+              <input type="reset" name="reset" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
